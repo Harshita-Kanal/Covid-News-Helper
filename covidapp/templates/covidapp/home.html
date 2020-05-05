@@ -1,0 +1,45 @@
+
+{% extends 'covidapp/main.html' %}
+{% load static %}
+{% block content %}
+
+
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<style>
+body{
+    background-color:#27b7e3;
+    
+}
+#pink{
+    margin-left:80px;
+    margin-right:80px;
+    margin-top:60px;
+}
+
+
+.card-title{
+    font-family: 'Bree Serif', serif;
+}
+.card-body{
+    background-color:#b3f5f0 ;}
+</style>
+</head>
+
+<body>
+<div id="pink">
+  <div class="card">
+      <img src="{% static 'images/coro.png' %}" class="card-img-top" alt="..." width="100" height="250">
+      <div class="card-body">
+        <h1 class="card-title">Coronavirus</h1>
+        <p class="card-text">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.<br>
+
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+
+<br>The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads.<br> Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.</p>
+      </div>
+    </div>
+</div>
+</body>
+{% endblock content%}

@@ -1,0 +1,95 @@
+{% extends 'covidapp/main.html' %}
+{% block content %}
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<style>
+body{
+    background-color:#27b7e3;
+    
+}
+#bor{
+    margin:50px;
+}
+
+h1{
+    margin:60px;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+}
+.card-title{
+    font-family: 'Bree Serif', serif;
+}
+
+.card-text{
+    font-family: 'Bree Serif', serif;
+}
+.card-body{
+    background-color:#b3f5f0 ;}
+</style>
+</head>
+
+<body>
+<h1>Symptoms </h1>
+
+<div id="bor">
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      
+      <div class="card-body">
+        
+        <p class="card-text">Fever</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+  
+      <div class="card-body">
+  
+        <p class="card-text">Sneezing</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+   
+      <div class="card-body">
+      
+        <p class="card-text">Cough</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+    
+      <div class="card-body">
+      
+        <p class="card-text">Sore Throat</p>
+      </div>
+    </div>
+  </div>
+ <div class="col mb-4">
+    <div class="card h-100">
+
+      <div class="card-body">
+       
+        <p class="card-text">Difficulty in Breathing</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+     
+      <div class="card-body">
+        <h5 class="card-title">Alert!</h5>
+        <p class="card-text">This is not a substitute for medical advice</p>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+</body>
+
+{% endblock content %}

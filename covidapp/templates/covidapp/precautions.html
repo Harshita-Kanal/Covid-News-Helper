@@ -1,0 +1,91 @@
+{% extends "covidapp/main.html" %}
+{% block content %}
+
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<style>
+body{
+    background-color:#27b7e3;
+    
+}
+#bor{
+    margin:50px;
+}
+
+h1{
+    margin:60px;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+}
+.card-title{
+    font-family: 'Bree Serif', serif;
+}
+.card-body{
+    background-color:#b3f5f0 ;}
+</style>
+</head>
+<body>
+<h1> Precautions </h1>
+
+<div id="bor">
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      
+      <div class="card-body">
+        <h5 class="card-title">Wash Hands</h5>
+        <p class="card-text">Clean your hands often. Use soap and water, or an alcohol-based hand rub.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+  
+      <div class="card-body">
+        <h5 class="card-title">Social Distancing</h5>
+        <p class="card-text">Maintain a safe distance from anyone who is coughing or sneezing.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+   
+      <div class="card-body">
+        <h5 class="card-title">Cover</h5>
+        <p class="card-text">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+    
+      <div class="card-body">
+        <h5 class="card-title">Stay Home</h5>
+        <p class="card-text">Stay home if you feel unwell.</p>
+      </div>
+    </div>
+  </div>
+ <div class="col mb-4">
+    <div class="card h-100">
+
+      <div class="card-body">
+        <h5 class="card-title">Seek Medical Attention</h5>
+        <p class="card-text">If you have a fever, a cough, and difficulty breathing, seek medical attention. Call in advance.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+     
+      <div class="card-body">
+        <h5 class="card-title">Follow Guidelines</h5>
+        <p class="card-text">Follow the directions of your local health authority.</p>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+</body>
+
+{% endblock content %}
